@@ -1,5 +1,5 @@
 var Greeter = React.createClass({
-  getDefaultProps: function () {
+  getDefaultProps: function() {
     return {
       name: 'React',
       message: 'This is from the component',
@@ -7,9 +7,9 @@ var Greeter = React.createClass({
   },
 
   getInitialState: function () {
-    return (
+    return {
       name: this.props.name
-    );
+    };
   },
 
   onButtonClick: function (e) {
