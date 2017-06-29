@@ -75,5 +75,5 @@ var firstName = "Chris",
 
 ReactDOM.render(
   <Greeter name={firstName} message={message} />,
-  document.getElementById('app')
+  document.getElementById('app');
 );
